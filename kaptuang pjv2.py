@@ -8,13 +8,13 @@ tom.speed(0)
 tom.color('black')
 
 tom.pu()
-tom.goto(0, 250)  # Move turtle to start position
+tom.goto(0, 250)
 tom.pd()
 
 sizes = 250
 decress = 8
 
-for i in range(30):  # Adjusted number of circles for better alignment
+for i in range(30):
     tom.circle(sizes)
     tom.pu()
     tom.rt(90)
